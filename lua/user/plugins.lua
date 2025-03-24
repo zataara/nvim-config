@@ -28,7 +28,11 @@ local plugin_modules = {
   "user.plugins.flash",
   "user.plugins.colorizer",
   "user.plugins.mini",
-  "user.plugins.undotree"
+  "user.plugins.undotree",
+  "user.plugins.transperent",
+  "user.plugins.myplugs",
+  -- "user.plugins.dev", -- Commented out as it's for local development
+  "user.plugins.avante"
 }
 
 local plugins = {}

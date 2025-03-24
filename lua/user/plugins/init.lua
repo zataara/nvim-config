@@ -24,6 +24,12 @@ function M.setup()
   require("user.plugins.colorizer")
   require("user.plugins.mini")
   require("user.plugins.undotree")
+  
+  -- Extra plugins
+  require("user.plugins.transperent")
+  require("user.plugins.myplugs")
+  -- require("user.plugins.dev") -- Commented out as it's for local development
+  require("user.plugins.avante")
 end
 
 return M 
