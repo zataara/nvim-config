@@ -18,3 +18,5 @@ map("i", "<End>", "<C-o>$", opts)
 
 -- Select all
 map("n", "<leader>a", "ggVG", opts)
+
+

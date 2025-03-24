@@ -1,5 +1,12 @@
+-- Load core settings
 require("user.options")
-require("user.plugins")
 require("user.mappings")
+
+-- Load plugins
+require("user.plugins")
+
+-- Load theme
 require("user.theme")
-require("user.feline")
+
+-- Initialize plugin configurations
+require("user.plugins.init").setup()
