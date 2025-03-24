@@ -31,6 +31,7 @@ local plugin_modules = {
   "user.plugins.undotree",
   "user.plugins.transperent",
   "user.plugins.myplugs",
+  "user.plugins.wakatime",
   -- "user.plugins.dev", -- Commented out as it's for local development
   "user.plugins.avante"
 }
