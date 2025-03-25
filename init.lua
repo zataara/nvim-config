@@ -5,8 +5,8 @@ require("user.mappings")
 -- Load plugins
 require("user.plugins")
 
--- Load theme
-require("user.theme")
-
 -- Initialize plugin configurations
 require("user.plugins.init").setup()
+
+-- Load theme (moved to end to ensure it overrides any plugin settings)
+require("user.theme")
